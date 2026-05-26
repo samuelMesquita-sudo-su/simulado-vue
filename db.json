@@ -1,0 +1,36 @@
+{
+  "clientes": [
+    { "id": 1, "nome": "Carlos Eduardo", "telefone": "(11) 99871-2345" },
+    { "id": 2, "nome": "Fernanda Lima",   "telefone": "(11) 97654-3210" },
+    { "id": 3, "nome": "Roberto Souza",   "telefone": "(11) 98765-4321" },
+    { "id": 4, "nome": "Patrícia Alves",  "telefone": "(11) 96543-2109" }
+  ],
+  "veiculos": [
+    { "id": 1, "placa": "ABC-1234", "modelo": "Fiat Palio",      "ano": 2018, "clienteId": 1 },
+    { "id": 2, "placa": "DEF-5678", "modelo": "VW Gol",          "ano": 2019, "clienteId": 2 },
+    { "id": 3, "placa": "GHI-9012", "modelo": "Ford Ka",         "ano": 2020, "clienteId": 3 },
+    { "id": 4, "placa": "JKL-3456", "modelo": "Chevrolet Onix",  "ano": 2021, "clienteId": 4 }
+  ],
+  "ordens": [
+    {
+      "id": 1, "veiculoId": 1, "clienteId": 1,
+      "descricao": "Troca de óleo e filtro",
+      "status": "Concluído", "dataAbertura": "2026-05-10"
+    },
+    {
+      "id": 2, "veiculoId": 2, "clienteId": 2,
+      "descricao": "Revisão dos freios dianteiros",
+      "status": "Em andamento", "dataAbertura": "2026-05-18"
+    },
+    {
+      "id": 3, "veiculoId": 3, "clienteId": 3,
+      "descricao": "Alinhamento e balanceamento",
+      "status": "Aguardando", "dataAbertura": "2026-05-20"
+    },
+    {
+      "id": 4, "veiculoId": 4, "clienteId": 4,
+      "descricao": "Substituição da correia dentada",
+      "status": "Aguardando", "dataAbertura": "2026-05-22"
+    }
+  ]
+}
