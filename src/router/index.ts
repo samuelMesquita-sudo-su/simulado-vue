@@ -17,7 +17,24 @@ const router = createRouter({
   routes: [
     {
       path: '/',
+      name: 'Home',
       component: HomePage
+    },
+    {
+      path: '/ordens',
+      name: 'Ordens',
+      component: OrdensPage
+    },
+    {
+      path: '/ordens/nova',
+      name: 'NovaOrdem',
+      component: NovaOrdemPage
+    },
+    {
+      path: '/ordens/:id',
+      name: 'DetalhesOrdem',
+      component: DetalhesOrdemPage,
+      props: true
     }
   ]
 })
